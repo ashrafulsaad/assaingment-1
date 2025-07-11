@@ -176,7 +176,7 @@ nav{
 .contact-section {
   background-color: #f7f9ff;
   padding: 60px 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway';
 }
 
 .contact-container {
@@ -233,5 +233,44 @@ nav{
   cursor: pointer;
   margin-top: 10px;
 }
+/* footer section */
+.footer-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.footer-logo {
+  font-size: 64px;
+  font-weight: 800;
+  color: #4e47ff;
+  font-family: 'Inter';
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color: #8888aa;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.5;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer-nav a {
+  color: #8888aa;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  color: #4e47ff;
+}
+
 
 
