@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* button style */
+.btn-primary{
+    background-color:#4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+    font-family: 'Raleway';
+}
+/* nav  */
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+/* nav heading */
+.logo{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color:#4E47FF;
+    font-family: 'Inter';
+}
+/* background image */
+.head {
+    background-image: url('./Assets/Hero-bg.png');
+}
+/* banner  */
+.banner{
+    text-align: center;
+    /* padding: 15px;
+    margin: 150px; */
+    
+}
+.banner-title{
+    margin: 158px 20px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 65px;
+}
+.distance{
+    margin: 40px;
+}
+/* 2nd task */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+    align-items: center;
+}
+.h4{
+    font-family: 'Raleway';
+    font:bold;
+    font-size: 40px;
+}
+.para{
+    font-family: 'Raleway';
+    font-size: 24px;
+    padding-bottom: 23px;
+}
+.image img{
+    border-radius: 48px;
+}
+/* prouctive user section */
+.secondary-bg{
+    background-color:#E9EBFF;
+    text-align: center;
+    margin: 150px;
+    border-radius: 8px;
+    
+}
+.section-title{
+    font-family: 'Raleway';
+    font:bold;
+    font-size: 38px;
+    color: black;
+    padding-top: 50px;
+    padding-left: 142px;
+    padding-right: 142px;
+}
+.whole{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.user{
+    font-family: 'Inter';
+    font: bold;
+    font-size: 50px;
+    color: #4E47FF;
+}
+.rate{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #6B7280;
+    margin-bottom: 50px;
+}
